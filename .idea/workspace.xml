@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="318d2670-5138-4434-a45d-568ca19130e4" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Teste03Edificacoes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/Teste03Edificacoes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3582">
+              <caret line="579" column="15" lean-forward="false" selection-start-line="579" selection-start-column="15" selection-end-line="579" selection-end-column="15" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1521753739651" expanded="false" signature="24956:24970" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="25333:25347" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="25711:25725" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="26089:26103" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="26466:26480" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="26844:26858" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="27278:27292" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="27655:27669" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="28033:28047" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="28409:28423" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="28784:28798" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="29156:29170" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="38400:38415" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="38631:38646" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="38863:38878" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="39096:39111" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="39490:39505" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="39724:39739" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="39958:39973" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="40192:40207" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="40585:40600" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="40818:40833" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="41052:41067" ph="..." />
+                <marker date="1521753739651" expanded="false" signature="41307:41322" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/282/Sound Studio-free/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="512" column="29" lean-forward="false" selection-start-line="512" selection-start-column="20" selection-end-line="512" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NiceAdmin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <marker date="1520272775999" expanded="true" signature="32854:32867" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Teste_teste03Edificacoes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/assets/Teste_teste03Edificacoes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22986">
+              <caret line="1277" column="0" lean-forward="false" selection-start-line="1277" selection-start-column="0" selection-end-line="1277" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>instagram-panel pn</find>
+      <find>darkblue-panel pn</find>
+      <find>grey-panel pn donut-chart</find>
+      <find>&lt;select class=&quot;form-control&quot;&gt;</find>
+      <find>data-slide=&quot;next&quot;</find>
+      <find>6.674</find>
+      <find>.owl-carousel .owl-item img</find>
+      <find>style=&quot;width: 437px;&quot;</find>
+      <find>owl-item active</find>
+      <find>common-scripts</find>
+      <find>gasto</find>
+      <find>owl-item</find>
+      <find>owl</find>
+      <find>responsive</find>
+      <find>teste</find>
+      <find>Gasto (KWh)</find>
+      <find>img</find>
+      <find>btn-lg</find>
+      <find>CanvasJS.com</find>
+      <find>Adicionar</find>
+      <find>chartContainerOnLine</find>
+      <find>chartContainer</find>
+      <find>piechart_3d</find>
+      <find>owl-carouse</find>
+      <find>Cômodos</find>
+      <find>Gasto (</find>
+      <find>Geladeira</find>
+      <find>Geladeir</find>
+      <find>Gráfico de Dis</find>
+      <find>container</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Tests/Dropdown</dir>
+      <dir>$PROJECT_DIR$/Dashgum-Basic</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tests/Dropdown/Teste04.html" />
+        <option value="$PROJECT_DIR$/Tests/Dropdown/Teste03.html" />
+        <option value="$PROJECT_DIR$/Tests/TabHeader/Teste04.html" />
+        <option value="$PROJECT_DIR$/Tests/TabHeader/Teste05.html" />
+        <option value="$PROJECT_DIR$/Tests/TabHeader/Teste06.html" />
+        <option value="$PROJECT_DIR$/Tests/TabHeader/Teste07.html" />
+        <option value="$PROJECT_DIR$/Tests/Jquery/Teste01.html" />
+        <option value="$PROJECT_DIR$/Tests/Jquery/Teste03.html" />
+        <option value="$PROJECT_DIR$/Tests/Jquery/Teste04.html" />
+        <option value="$PROJECT_DIR$/Tests/Jquery/Teste02.html" />
+        <option value="$PROJECT_DIR$/Tests/Jquery/Teste05.html" />
+        <option value="$PROJECT_DIR$/Tests/Templates/Teste03Edificacoes.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/panels.html" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste 04 - Carousel.html" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste05.html" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste06.html" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste07.html" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste01.html" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste02.html" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste03.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/chartjs.html" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste08.html" />
+        <option value="$PROJECT_DIR$/Tests/Cards/Teste04.html" />
+        <option value="$PROJECT_DIR$/Tests/css/Booststrapv4.0.css" />
+        <option value="$PROJECT_DIR$/Tests/js/jQueryv3.2.1.js" />
+        <option value="$PROJECT_DIR$/Tests/js/js1.js" />
+        <option value="$PROJECT_DIR$/Tests/js/bootstrapv4.0.js" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste09.html" />
+        <option value="$PROJECT_DIR$/Tests/Owl/owl1.js" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste11.html" />
+        <option value="$PROJECT_DIR$/Tests/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css" />
+        <option value="$PROJECT_DIR$/Tests/OwlCarousel2-2.2.1/docs/assets/owlcarousel/assets/owl.carousel.min.css" />
+        <option value="$PROJECT_DIR$/Tests/Carousel/Teste10.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/Teste.html" />
+        <option value="$PROJECT_DIR$/Tests/OwlCarousel2-2.2.1/docs/demos/responsive.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/index.html" />
+        <option value="$PROJECT_DIR$/183/index.html" />
+        <option value="$PROJECT_DIR$/Tests/Panels/Teste01.html" />
+        <option value="$PROJECT_DIR$/Tests/js/panels/js01.js" />
+        <option value="$PROJECT_DIR$/Tests/js/panels/js02.js" />
+        <option value="$PROJECT_DIR$/Tests/css/panels/css01.css" />
+        <option value="$PROJECT_DIR$/Tests/css/panels/css02.css" />
+        <option value="$PROJECT_DIR$/Tests/Panels/Teste02.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/js/common-scripts.js" />
+        <option value="$PROJECT_DIR$/Tests/Charts/Teste12.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/Teste07_Chart_Modificado.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/Teste12_Chart_Modificado.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/Tests/Panels/Teste03.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/Teste_teste03Edificacoes.html" />
+        <option value="$PROJECT_DIR$/Dashgum-Basic/Theme/Teste03Edificacoes.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="400" />
+    <option name="y" value="34" />
+    <option name="width" value="1325" />
+    <option name="height" value="764" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Projeto_Embarcado_2018_V3.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projeto_Embarcado_2018_V3.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projeto_Embarcado_2018_V3.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projeto_Embarcado_2018_V3.0" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashgum-Basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projeto_Embarcado_2018_V3.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projeto_Embarcado_2018_V3.0" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashgum-Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/js/owlcarousel" />
+      <recent name="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/css/owlcarousel" />
+      <recent name="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/css" />
+      <recent name="$PROJECT_DIR$/Dashgum-Basic/Theme/assets/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests" />
+      <recent name="$PROJECT_DIR$/Dashgum-Basic/Theme" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Teste05.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projeto_Embarcado_2018_V3.0/Tests/TabHeader/Teste05.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Teste05.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="318d2670-5138-4434-a45d-568ca19130e4" name="Default" comment="" />
+      <created>1517603139757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517603139757</updated>
+      <workItem from="1517603141000" duration="5000" />
+      <workItem from="1517706249580" duration="253000" />
+      <workItem from="1517709024448" duration="1372000" />
+      <workItem from="1517851806816" duration="9308000" />
+      <workItem from="1517934022873" duration="5240000" />
+      <workItem from="1518025378744" duration="8259000" />
+      <workItem from="1518113295145" duration="7899000" />
+      <workItem from="1518712595567" duration="12140000" />
+      <workItem from="1518801788994" duration="8498000" />
+      <workItem from="1518900307132" duration="48000" />
+      <workItem from="1518916793643" duration="269000" />
+      <workItem from="1518982783317" duration="52000" />
+      <workItem from="1519062063700" duration="9796000" />
+      <workItem from="1519147536093" duration="3028000" />
+      <workItem from="1519243052945" duration="4733000" />
+      <workItem from="1519325255209" duration="6104000" />
+      <workItem from="1519406045812" duration="13971000" />
+      <workItem from="1519669111197" duration="8337000" />
+      <workItem from="1519752813351" duration="598000" />
+      <workItem from="1519761434738" duration="4861000" />
+      <workItem from="1519844080278" duration="4636000" />
+      <workItem from="1519924534743" duration="8709000" />
+      <workItem from="1520020529055" duration="5454000" />
+      <workItem from="1520272096095" duration="5660000" />
+      <workItem from="1520364143209" duration="4864000" />
+      <workItem from="1520443952842" duration="6814000" />
+      <workItem from="1520529571883" duration="2064000" />
+      <workItem from="1520702303860" duration="9799000" />
+      <workItem from="1520886137711" duration="3739000" />
+      <workItem from="1520970227121" duration="5550000" />
+      <workItem from="1521058961939" duration="5150000" />
+      <workItem from="1521143509322" duration="663000" />
+      <workItem from="1521145165810" duration="4163000" />
+      <workItem from="1521286119547" duration="905000" />
+      <workItem from="1521287303634" duration="4051000" />
+      <workItem from="1521384471615" duration="5000000" />
+      <workItem from="1521480067572" duration="4309000" />
+      <workItem from="1521566816778" duration="609000" />
+      <workItem from="1521579426224" duration="120000" />
+      <workItem from="1521580260891" duration="1189000" />
+      <workItem from="1521582032306" duration="816000" />
+      <workItem from="1521662410767" duration="605000" />
+      <workItem from="1521666217494" duration="1366000" />
+      <workItem from="1521748034153" duration="2971000" />
+      <workItem from="1521902201732" duration="22000" />
+      <workItem from="1522097621313" duration="833000" />
+      <workItem from="1525384370443" duration="948000" />
+      <workItem from="1525544039594" duration="343000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="196123000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="400" y="34" width="1329" height="780" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21929164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3421462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/assets/css/css01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2430">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/assets/js/owlcarousel/owl.carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/OwlCarousel2-2.2.1/dist/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-605">
+          <caret line="50" column="57" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/assets/css/owlcarousel/owl.carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/OwlCarousel2-2.2.1/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste26.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste25.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste24.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste19.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste23.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/assets/Teste12_Chart_Modificado.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="121" column="13" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Input/Teste01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Input/Teste02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Dropdown/Teste02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Dropdown/Teste01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Dropdown/Teste04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Dropdown/Teste03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Cards/Teste02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Cards/Teste04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Cards/Teste03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Cards/Teste01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Panels/Teste02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Panels/Teste01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Charts/Teste12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/assets/Teste07_Chart_Modificado.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3052" column="18" lean-forward="false" selection-start-line="3052" selection-start-column="18" selection-end-line="3052" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Panels/Teste03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/assets/Teste_teste03Edificacoes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22986">
+          <caret line="1277" column="0" lean-forward="false" selection-start-line="1277" selection-start-column="0" selection-end-line="1277" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/Teste03Edificacoes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3582">
+          <caret line="579" column="15" lean-forward="false" selection-start-line="579" selection-start-column="15" selection-end-line="579" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1521753739651" expanded="false" signature="24956:24970" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="25333:25347" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="25711:25725" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="26089:26103" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="26466:26480" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="26844:26858" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="27278:27292" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="27655:27669" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="28033:28047" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="28409:28423" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="28784:28798" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="29156:29170" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="38400:38415" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="38631:38646" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="38863:38878" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="39096:39111" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="39490:39505" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="39724:39739" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="39958:39973" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="40192:40207" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="40585:40600" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="40818:40833" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="41052:41067" ph="..." />
+            <marker date="1521753739651" expanded="false" signature="41307:41322" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashgum-Basic/Theme/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <marker date="1520272775999" expanded="true" signature="32854:32867" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NiceAdmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/282/Sound Studio-free/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="512" column="29" lean-forward="false" selection-start-line="512" selection-start-column="20" selection-end-line="512" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

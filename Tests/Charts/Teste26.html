@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teste</title>
+</head>
+<body>
+
+<div class="container">
+  <h2>CanvasJS Charts in Bootstrap Table</h2>
+  <table class="table table-hover  table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Cell</th>
+        <th>Time(seconds)</th>
+        <th>Temperature (&deg;C)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cell 1</td>
+        <td>0</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Cell 1</td>
+        <td>1</td>
+        <td>150</td>
+      </tr>
+      <tr>
+        <td>Cell 1</td>
+        <td>2</td>
+        <td>180</td>
+      </tr>
+      <tr>
+        <td>Chart 1</td>
+        <td></td>
+        <td><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cellOneExp" aria-expanded="false" aria-controls="cellOneExp">
+        Show Chart
+        </button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="100%" class="hiddenRow">
+          <div class="collapse" id="cellOneExp">
+           <div id="chartContainer1" style="height: 360px; width:100%;">
+           </div>
+          </div> 
+        </td>
+      </tr>
+      <tr>
+        <td>Cell 2</td>
+        <td>0</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>Cell 2</td>
+        <td>1</td>
+        <td>250</td>
+      </tr>
+      <tr>
+        <td>Cell 2</td>
+        <td>2</td>
+        <td>280</td>
+      </tr>
+      <tr>
+        <td>Chart 2</td>
+        <td></td>
+        <td><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cellTwoExp" aria-expanded="false" aria-controls="cellTwoExp">
+        Show Chart
+        </button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="100%" class="hiddenRow">
+          <div class="collapse" id="cellTwoExp">
+           <div id="chartContainer2" style="height: 360px; width: 100%;">
+            </div>
+          </div> 
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script type="text/javascript">
+  
+var dpsChart1 = []; // dataPoints
+
+var chart1 = new CanvasJS.Chart("chartContainer1",{
+  zoomEnabled: true,
+  height: 360,
+  //width:200,
+  title :{
+    text: "Cell 1 Temperature (\xB0C)"
+  },
+  axisX: {
+    title:"Time (seconds)",
+
+  },
+  axisY:{
+    title: "Temperature (\xB0C)",
+  },          
+  data: [{
+    type: "line",
+    dataPoints: dpsChart1 
+  }]
+});
+chart1.render();
+
+var xValChart1 = 0;
+var yValChart1 = 100; 
+var updateIntervalChart1 = 100;
+var dataLengthChart1 = 5000; // number of dataPoints visible at any point
+
+var updateChart1 = function (count) {
+    count = count || 1;
+    // count is number of times loop runs to generate random dataPoints.
+
+    for (var j = 0; j < count; j++) {   
+      yValChart1 = yValChart1 +  Math.round(5 + Math.random() *(-5-5));
+      dpsChart1.push({
+        x: xValChart1,
+        y: yValChart1
+      });
+      xValChart1++;
+    }
+
+    if (dpsChart1.length > dataLengthChart1)
+      dpsChart1.shift();
+
+    chart1.render();
+  }
+
+// generates first set of dataPoints
+updateChart1(dataLengthChart1); 
+
+// update chart after specified time. 
+setInterval(function () {
+    updateChart1();
+  }, updateIntervalChart1);
+
+
+var dpsChart2 = []; // dataPoints
+
+var chart2 = new CanvasJS.Chart("chartContainer2",{
+  zoomEnabled: true,
+  height: 360,
+  title :{
+    text: "Cell 2 Temperature (\xB0C)"
+  },
+  axisX: {
+    title:"Time (seconds)",
+
+  },
+  axisY:{
+    title: "Temperature (\xB0C)",
+  },          
+  data: [{
+    type: "line",
+    color: "#c24642",
+    dataPoints: dpsChart2 
+  }]
+});
+chart2.render();
+
+var xValChart2 = 0;
+var yValChart2 = 100; 
+var updateIntervalChart2 = 100;
+var dataLengthChart2 = 5000; // number of dataPoints visible at any point
+
+var updateChart2 = function (count) {
+    count = count || 1;
+    // count is number of times loop runs to generate random dataPoints.
+
+    for (var j = 0; j < count; j++) {   
+      yValChart2 = yValChart2 +  Math.round(5 + Math.random() *(-5-5));
+      dpsChart2.push({
+        x: xValChart2,
+        y: yValChart2
+      });
+      xValChart2++;
+    }
+
+    if (dpsChart2.length > dataLengthChart2)
+      dpsChart2.shift();
+
+    chart2.render();
+ }
+
+// generates first set of dataPoints
+updateChart2(dataLengthChart2); 
+
+// update chart after specified time. 
+setInterval(function () {
+    updateChart2();
+  }, updateIntervalChart2);
+  
+$('#cellOneExp').on('shown.bs.collapse', function () {
+  chart1.render();
+});
+
+
+$('#cellTwoExp').on('shown.bs.collapse', function () {
+  chart2.render();
+});
+  
+</script>
+
+</body>
+</html>

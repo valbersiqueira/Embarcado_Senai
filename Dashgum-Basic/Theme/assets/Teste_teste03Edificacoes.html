@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Edificações</title>
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/css/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owlcarousel/owl.theme.default.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/js/gritter/css/jquery.gritter.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/lineicons/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/css01.css">-->
+
+    <script src="assets/js/chart-master/Chart.js"></script>
+
+    <style>
+
+        body {
+            padding-top: 20px;
+        }
+
+        .carousel {
+            margin-bottom: 0;
+            padding: 0 40px 30px 40px;
+        }
+
+        .carousel-control {
+            left: -12px;
+            height: 40px;
+            width: 40px;
+            background: none repeat scroll 0 0 #222222;
+            border: 4px solid #FFFFFF;
+            border-radius: 23px 23px 23px 23px;
+            margin-top: 90px;
+        }
+
+        .carousel-control.right {
+            right: -12px;
+        }
+
+        .carousel-indicators {
+            right: 50%;
+            top: auto;
+            bottom: -10px;
+            margin-right: -19px;
+        }
+
+        .carousel-indicators li {
+            background: #cecece;
+        }
+
+        .carousel-indicators .active {
+            background: #428bca;
+        }
+
+    </style>
+
+    <!--
+    <link rel="stylesheet" href="../../../Projeto_Embarcado_2018_V3.0/Tests/OwlCarousel2-2.2.1/docs/assets/css/docs.theme.min.css">
+-->
+</head>
+
+<body>
+
+<section id="container">
+    <!-- **********************************************************************************************************************************************************
+    TOP BAR CONTENT & NOTIFICATIONS
+    *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+        <div class="sidebar-toggle-box">
+            <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+        </div>
+        <!--logo start-->
+        <a href="index.html" class="logo"><b>MENU</b></a>
+        <!--logo end-->
+        <div class="nav notify-row" id="top_menu">
+            <!--  notification start -->
+            <ul class="nav top-menu">
+                <!-- settings start -->
+                <li class="dropdown">
+                    <ul class="dropdown-menu extended tasks-bar">
+                        <div class="notify-arrow notify-arrow-green"></div>
+                        <li>
+                            <p class="green">You have 4 pending tasks</p>
+                        </li>
+                        <li>
+                            <a href="index.html#">
+                                <div class="task-info">
+                                    <div class="desc">DashGum Admin Panel</div>
+                                    <div class="percent">40%</div>
+                                </div>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                        <span class="sr-only">40% Complete (success)</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html#">
+                                <div class="task-info">
+                                    <div class="desc">Database Update</div>
+                                    <div class="percent">60%</div>
+                                </div>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                        <span class="sr-only">60% Complete (warning)</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html#">
+                                <div class="task-info">
+                                    <div class="desc">Product Development</div>
+                                    <div class="percent">80%</div>
+                                </div>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        <span class="sr-only">80% Complete</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html#">
+                                <div class="task-info">
+                                    <div class="desc">Payments Sent</div>
+                                    <div class="percent">70%</div>
+                                </div>
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                        <span class="sr-only">70% Complete (Important)</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="external">
+                            <a href="#">See All Tasks</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- settings end -->
+                <!-- inbox dropdown start-->
+                <li id="header_inbox_bar" class="dropdown">
+                    <ul class="dropdown-menu extended inbox">
+                        <div class="notify-arrow notify-arrow-green"></div>
+                        <li>
+                            <p class="green">You have 5 new messages</p>
+                        </li>
+                        <li>
+                            <a href="index.html#">
+                                <span class="photo"><img alt="avatar" src="assets/img/ui-zac.jpg"></span>
+                                <span class="subject">
+                                    <span class="from">Zac Snider</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                <span class="message">
+                                        Hi mate, how is everything?
+                                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html#">
+                                <span class="photo"><img alt="avatar" src="assets/img/ui-divya.jpg"></span>
+                                <span class="subject">
+                                    <span class="from">Divya Manian</span>
+                                    <span class="time">40 mins.</span>
+                                    </span>
+                                <span class="message">
+                                     Hi, I need your help with this.
+                                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html#">
+                                <span class="photo"><img alt="avatar" src="assets/img/ui-danro.jpg"></span>
+                                <span class="subject">
+                                    <span class="from">Dan Rogers</span>
+                                    <span class="time">2 hrs.</span>
+                                    </span>
+                                <span class="message">
+                                        Love your new Dashboard.
+                                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html#">
+                                <span class="photo"><img alt="avatar" src="assets/img/ui-sherman.jpg"></span>
+                                <span class="subject">
+                                    <span class="from">Dj Sherman</span>
+                                    <span class="time">4 hrs.</span>
+                                    </span>
+                                <span class="message">
+                                        Please, answer asap.
+                                    </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html#">See all messages</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- inbox dropdown end -->
+            </ul>
+            <!--  notification end -->
+        </div>
+        <div class="top-menu">
+            <ul class="nav pull-right top-menu">
+                <li><a class="logout" href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--header end-->
+
+    <!-- **********************************************************************************************************************************************************
+    MAIN SIDEBAR MENU
+    *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+        <div id="sidebar" class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu" id="nav-accordion">
+
+                <p class="centered"><a href="profile.html"><img src="assets/img/sem-titulo-1031773.jpg"
+                                                                class="img-circle" width="60"></a></p>
+                <h5 class="centered">João da Silva</h5>
+
+                <li class="mt">
+                    <a href="index.html">
+                        <i class="fa fa-dashboard"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-address-book"></i>
+                        <span>Perfil</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="general.html">General</a></li>
+                        <li><a href="buttons.html">Buttons</a></li>
+                        <li><a href="panels.html">Panels</a></li>
+                    </ul>
+                </li>
+
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-bar-chart-o"></i>
+                        <span>Consumo de Água</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="calendar.html">Calendar</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="todo_list.html">Todo List</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu">
+                    <a class="active" href="javascript:;">
+                        <i class="fa fa-edit"></i>
+                        <span>Edificações</span>
+                    </a>
+                    <!--
+                    <ul class="sub">
+                        <li class="active"><a  href="blank.html">Blank Page</a></li>
+                        <li><a  href="login.html">Login</a></li>
+                        <li><a  href="lock_screen.html">Lock Screen</a></li>
+                    </ul>
+                    -->
+                </li>
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-expeditedssl"></i>
+                        <span>Segurança</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="form_component.html">Form Components</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-cogs"></i>
+                        <span>Configurações</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="basic_table.html">Embarcados</a></li>
+                        <li><a href="responsive_table.html">Sair</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </aside>
+    <!--sidebar end-->
+
+    <!-- **********************************************************************************************************************************************************
+    MAIN CONTENT
+    *********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <section id="main-content">
+        <section class="wrapper site-min-height">
+            <h3><i class="fa fa-angle-right"></i> Edificações</h3>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="col-md-6">
+                        <div class="col-md-10 text-center">
+                            <div class="panel panel-danger panel-pricing"
+                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                                <div class="panel-heading" style="padding: 20px 10px;">
+                                    <i class="fa fa-dollar" style="margin-top: 10px;font-size: 58px;"></i>
+                                    <h3>Gasto (R$)</h3>
+                                </div>
+                                <div class="panel-body text-center" style="background-color: #ffffff;">
+                                    <p><strong style="font-weight: 700;font-size: 40px;"> 108,41 </strong></p>
+                                </div>
+                                <!--
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+                                    <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+                                    <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="col-md-10 text-center">
+                            <div class="panel panel-warning panel-pricing"
+                                 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                                <div class="panel-heading" style="padding: 20px 10px;">
+                                    <i class="fa fa-th" style="margin-top: 10px;font-size: 58px;"></i>
+                                    <h3>Gasto (KWh)</h3>
+                                </div>
+                                <div class="panel-body text-center" style="background-color: #ffffff;">
+                                    <p><strong style="font-weight: 700;font-size: 40px;"> 297,41 </strong></p>
+                                </div>
+                                <!--
+                                <ul class="list-group text-center">
+                                    <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+                                    <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+                                    <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                                </ul>
+                                <div class="panel-footer">
+                                    <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--
+            <div class="col-md-4 text-center">
+                <div class="panel panel-success panel-pricing">
+                    <div class="panel-heading">
+                        <i class="fa fa-desktop"></i>
+                        <h3>Gasto (R$)</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p><strong> R$ 57,85 </strong></p>
+                    </div>
+
+                    <ul class="list-group text-center">
+                        <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+                        <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+                    </div>
+
+                </div>
+            </div>-->
+
+
+                <!--<div class="row">-->
+                <!--<div class="col-md-4 col-sm-4 mb">-->
+                <!--<div class="grey-panel pn donut-chart">-->
+                <!--<div class="grey-header">-->
+                <!--<h5>GASTO (R$)</h5>-->
+                <!--</div>-->
+                <!--<canvas id="serverstatus01" height="120" width="120"></canvas>-->
+                <!--<script>-->
+                <!--var doughnutData = [-->
+                <!--{-->
+                <!--value: 70,-->
+                <!--color: "#FF6B6B"-->
+                <!--},-->
+                <!--{-->
+                <!--value: 30,-->
+                <!--color: "#fdfdfd"-->
+                <!--}-->
+                <!--];-->
+                <!--var myDoughnut = new Chart(document.getElementById("serverstatus01").getContext("2d")).Doughnut(doughnutData);-->
+                <!--</script>-->
+                <!--<div class="row">-->
+                <!--<div class="col-sm-6 col-xs-6 goleft">-->
+                <!--<p>Usage<br/>Increase:</p>-->
+                <!--</div>-->
+                <!--<div class="col-sm-6 col-xs-6">-->
+                <!--<h2>21%</h2>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+
+                <!--<div class="col-md-4 col-sm-4 mb">-->
+                <!--<div class="darkblue-panel pn">-->
+                <!--<div class="darkblue-header">-->
+                <!--<h5>CONSUMO MENSAL (R$)</h5>-->
+                <!--</div>-->
+                <!--<canvas id="serverstatus02" height="120" width="120"></canvas>-->
+                <!--<script>-->
+                <!--var doughnutData = [-->
+                <!--{-->
+                <!--value: 60,-->
+                <!--color: "#1c9ca7"-->
+                <!--},-->
+                <!--{-->
+                <!--value: 40,-->
+                <!--color: "#f68275"-->
+                <!--}-->
+                <!--];-->
+                <!--var myDoughnut = new Chart(document.getElementById("serverstatus02").getContext("2d")).Doughnut(doughnutData);-->
+                <!--</script>-->
+                <!--<p>April 17, 2014</p>-->
+                <!--<footer>-->
+                <!--<div class="pull-left">-->
+                <!--<h5><i class="fa fa-hdd-o"></i> 17 GB</h5>-->
+                <!--</div>-->
+                <!--<div class="pull-right">-->
+                <!--<h5>60% Used</h5>-->
+                <!--</div>-->
+                <!--</footer>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="col-md-4 col-sm-4 mb">-->
+                <!--<div class="green-panel pn">-->
+                <!--<div class="green-header">-->
+                <!--<h5>GASTO (KWh)</h5>-->
+                <!--</div>-->
+                <!--<canvas id="serverstatus03" height="120" width="120"></canvas>-->
+                <!--<script>-->
+                <!--var doughnutData = [-->
+                <!--{-->
+                <!--value: 60,-->
+                <!--color: "#2b2b2b"-->
+                <!--},-->
+                <!--{-->
+                <!--value: 40,-->
+                <!--color: "#fffffd"-->
+                <!--}-->
+                <!--];-->
+                <!--var myDoughnut = new Chart(document.getElementById("serverstatus03").getContext("2d")).Doughnut(doughnutData);-->
+                <!--</script>-->
+                <!--<h3>60% USED</h3>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+
+                <div class="col-md-12" style="margin-top: 20px;">
+                    <div class="col-md-6">
+                        <select class="form-control" style="width:100%;">
+                            <option>Selecione um Cômodo</option>
+                            <option>Cozinha</option>
+                            <option>Quarto</option>
+                            <option>Banheiro</option>
+                            <option>Suíte</option>
+                            <option>Garagem</option>
+                            <option>Área de Lazer</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" class="btn btn-primary btn-lg">Adicionar Cômodo</button>
+                    </div>
+                </div>
+
+                <div class="col-md-12" style="margin-top: 20px;">
+                    <div class="col-md-6">
+                        <!--<div class="col-md-1 no-padding" id="carousel-left"-->
+                        <!--style="vertical-align:  middle;text-align:  center;margin-top: 0px;height: 100px;background: gray">-->
+                        <!--<span class="fa fa-angle-left fa-4x" style="margin-top: 20px;color:  white;"></span>-->
+                        <!--</div>-->
+
+
+                        <!--<div class="col-md-10 no-padding">-->
+                        <!--<div class="owl-carousel">-->
+                        <!--<div class="owl-item active">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/124771704P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/24183525P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/116592896P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/111574111P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/17058044P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/120174128P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha"-->
+                        <!--src="assets/img/imagens_comodos/liquidificador-arno-clic-150x150.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/27480288P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/117075807P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/4942897P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/313975P1.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="owl-item">-->
+                        <!--<div class="item">-->
+                        <!--<img alt="comodo_cozinha" src="assets/img/imagens_comodos/14199.jpg"-->
+                        <!--style="width: 81.59px" height="100">-->
+                        <!--</div>-->
+                        <!--</div>-->
+
+                        <!--</div>-->
+                        <!--</div>-->
+                        <div class="col-md-12 no-padding">
+                            <div class="owl-carousel">
+
+                                <div class="owl-item active">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/124771704P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/24183525P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/116592896P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/111574111P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/17058044P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/120174128P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/liquidificador-arno-clic-150x150.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/27480288P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha"
+                                             src="assets/img/imagens_comodos/117075807P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha" src="assets/img/imagens_comodos/4942897P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha" src="assets/img/imagens_comodos/313975P1.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item">
+                                        <img alt="comodo_cozinha" src="assets/img/imagens_comodos/14199.jpg"
+                                             style="width: 81.59px" height="100">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--<div class="col-md-1 no-padding"-->
+                        <!--style="vertical-align:  middle;text-align:  center;margin-top: 0px;height: 100px;background: gray">-->
+                        <!--<span class="fa fa-angle-right fa-4x" style="margin-top: 20px;color:  white;"></span>-->
+                        <!--</div>-->
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <select class="form-control">
+                            <option>Cômodos Cadastrados</option>
+                            <option>
+                                Cozinha
+                            </option>
+                            <option>
+                                Quarto
+                            </option>
+                            <option>
+                                Banheiro
+                            </option>
+                            <option>
+                                Suíte
+                            </option>
+                            <option>
+                                Garagem
+                            </option>
+                            <option>
+                                Área de Lazer
+                            </option>
+                            <option>
+                                Dispensa
+                            </option>
+                            <option>
+                                Sacada
+                            </option>
+                        </select>
+
+
+                        <div class="panel-group">
+                            <!-- Cor Verde -->
+                            <div class="panel panel-success">
+                                <div class="panel-heading">Gasto (R$) = 255,29 / Gasto(KWh) = 254,21</div>
+                            </div>
+                            <!-- Cor Amarela -->
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">Gasto (R$) = 255,29 / Gasto(KWh) = 254,21</div>
+                            </div>
+                            <!-- Cor Azul -->
+                            <div class="panel panel-danger">
+                                <div class="panel-heading">Gasto (R$) = 255,29 / Gasto(KWh) = 254,21</div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                <!--<div class="col-md-12" style="margin-top: 20px;">-->
+                <!--<div id="Carousel" class="carousel slide">-->
+
+                <!--<ol class="carousel-indicators">-->
+                <!--<li data-target="#Carousel" data-slide-to="0" class="active"></li>-->
+                <!--<li data-target="#Carousel" data-slide-to="1"></li>-->
+                <!--<li data-target="#Carousel" data-slide-to="2"></li>-->
+                <!--</ol>-->
+
+
+                <!--<div class="carousel-inner">-->
+
+                <!--<div class="item active">-->
+                <!--<div class="row">-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/14199.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/313975P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/4942897P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/17058044P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="item">-->
+                <!--<div class="row">-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/111574111P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/116592896P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/117075807P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/120174128P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="item">-->
+                <!--<div class="row">-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/24183525P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/27480288P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/124771704P1.jpg" alt="Image"-->
+                <!--style="max-width:100%;"></a></div>-->
+                <!--<div class="col-md-3"><a href="#" class="thumbnail"><img-->
+                <!--src="assets/img/imagens_comodos/liquidificador-arno-clic-150x150.jpg"-->
+                <!--alt="Image" style="max-width:100%;"></a></div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <!--</div>-->
+                <!--<a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>-->
+                <!--<a data-slide="next" href="#Carousel" class="right carousel-control">›</a>-->
+                <!--</div>-->
+
+                <!--</div>-->
+
+                <div class="col-md-12" style="margin-top: 20px;padding-left: 0px;padding-right: 0px;">
+                    <div class="col-md-12 mb">
+                        <div class="weather-2" style="background: #ffffff;">
+                            <div class="weather-2-header">
+                                <div class="row">
+                                    <div class="col-sm-6 col-xs-6">
+                                        <p>Consumo por Dispositivo</p>
+                                    </div>
+
+                                </div>
+                            </div><!-- /weather-2 header -->
+                            <div class="row data">
+                                <div class="table table-responsive">
+                                    <table class="table table-bordered table-striped table-condensed">
+                                        <thead>
+                                        <tr>
+                                            <th>Nome</th>
+                                            <th class="numeric">Quantidade</th>
+                                            <th class="numeric">Potência (W)</th>
+                                            <th class="numeric">Tempo de uso</th>
+                                            <th class="numeric">Período</th>
+                                            <th class="numeric">KWh/mês</th>
+                                            <th class="numeric">Custo (R$)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Geladeira</td>
+                                            <td class="numeric">1</td>
+                                            <td class="numeric">256</td>
+                                            <td class="numeric">24h/dia</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">256</td>
+                                            <td class="numeric">212,49</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Microondas</td>
+                                            <td class="numeric">$1.15</td>
+                                            <td class="numeric"> +0.02</td>
+                                            <td class="numeric">1.32%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$1.15</td>
+                                            <td class="numeric">$1.13</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fogão</td>
+                                            <td class="numeric">$4.00</td>
+                                            <td class="numeric">-0.04</td>
+                                            <td class="numeric">-0.99%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$4.05</td>
+                                            <td class="numeric">$4.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Torradeira</td>
+                                            <td class="numeric">$3.00</td>
+                                            <td class="numeric"> +0.06</td>
+                                            <td class="numeric">2.04%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$3.00</td>
+                                            <td class="numeric">$2.96</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Espremedor de Frutas</td>
+                                            <td class="numeric">$1.91</td>
+                                            <td class="numeric">0.00</td>
+                                            <td class="numeric">0.00%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$1.93</td>
+                                            <td class="numeric">$1.90</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Churrasqueira Elétrica</td>
+                                            <td class="numeric">$0.77</td>
+                                            <td class="numeric"> +0.02</td>
+                                            <td class="numeric">2.00%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$0.77</td>
+                                            <td class="numeric">$0.76</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Freezer</td>
+                                            <td class="numeric">$3.71</td>
+                                            <td class="numeric"> +0.01</td>
+                                            <td class="numeric">0.14%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$3.72</td>
+                                            <td class="numeric">$3.68</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Liquidificador</td>
+                                            <td class="numeric">$0.72</td>
+                                            <td class="numeric">0.00</td>
+                                            <td class="numeric">0.00%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$0.74</td>
+                                            <td class="numeric">$0.72</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lâmpada LED</td>
+                                            <td class="numeric">$7.81</td>
+                                            <td class="numeric">-0.22</td>
+                                            <td class="numeric">-2.74%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$7.82</td>
+                                            <td class="numeric">$7.81</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Frigideira</td>
+                                            <td class="numeric">$13.82</td>
+                                            <td class="numeric"> +0.02</td>
+                                            <td class="numeric">0.14%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$13.83</td>
+                                            <td class="numeric">$13.67</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Máquina de Arroz</td>
+                                            <td class="numeric">$3.17</td>
+                                            <td class="numeric">-0.02</td>
+                                            <td class="numeric">-0.47%</td>
+                                            <td class="numeric">
+                                                <select class="form-control">
+                                                    <option>Minutos/Dia</option>
+                                                    <option>Horas/Dia</option>
+                                                    <option>Horas/Semana</option>
+                                                    <option>Horas/Mês</option>
+                                                </select>
+                                            </td>
+                                            <td class="numeric">$3.22</td>
+                                            <td class="numeric">$3.10</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="container">-->
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div id="piechart_3d" ></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="chartContainer"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+
+                    <div class="col-md-12">
+                        <div id="chartContainerAoVivo" style="min-height: 400px;"></div>
+                    </div>
+
+                    <!--<div class="col-md-6">-->
+                    <!--<div id="chartContainerAoVivo" style="min-height: 400px;"></div>-->
+                    <!--</div>-->
+                </div>
+                <!--</div>-->
+
+            </div>
+            </div>
+        </section>
+    </section>
+</section>
+
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="assets/js/jquery.scrollTo.min.js"></script>
+<script src="assets/js/common-scripts.js"></script>
+
+<script src="assets/js/owlcarousel/owl.carousel.js"></script>
+<!--<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>-->
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            nav: true,
+            center: true,
+            margin: 10,
+            loop: true,
+            // navText: [ "<img src='assets/img/friends/fr-01.jpg'>", "<img src='assets/img/friends/fr-01.jpg'>" ],
+            navText: ["<div class='pull-left'><span class='fa fa-angle-left fa-3x'></span></div>", "<div class='pull-right'><span class='fa fa-angle-right fa-3x'></span></div>"],
+            dots: false,
+            items: 6,
+            autoWidth: true,
+            autoplay: true,
+            singleItem: true
+
+        });
+    });
+
+
+    window.onload = function () {
+
+        var options = {
+            animationEnabled: true,
+            theme: "light2",
+            title: {
+                text: "Gráfico Anual"
+            },
+            axisX: {
+                valueFormatString: "MMM"
+            },
+            axisY: {
+                prefix: "$",
+                labelFormatter: addSymbols
+            },
+            toolTip: {
+                shared: true
+            },
+            legend: {
+                cursor: "pointer",
+                itemclick: toggleDataSeries
+            },
+            data: [
+                {
+                    type: "column",
+                    name: "Actual Sales",
+                    showInLegend: true,
+                    xValueFormatString: "MMMM YYYY",
+                    yValueFormatString: "$#,##0",
+                    dataPoints: [
+                        {x: new Date(2017, 0), y: 20000},
+                        {x: new Date(2017, 1), y: 25000},
+                        {x: new Date(2017, 2), y: 30000},
+                        {x: new Date(2017, 3), y: 70000},
+                        {x: new Date(2017, 4), y: 40000},
+                        {x: new Date(2017, 5), y: 60000},
+                        {x: new Date(2017, 6), y: 55000},
+                        {x: new Date(2017, 7), y: 33000},
+                        {x: new Date(2017, 8), y: 45000},
+                        {x: new Date(2017, 9), y: 30000},
+                        {x: new Date(2017, 10), y: 50000},
+                        {x: new Date(2017, 11), y: 35000}
+                    ]
+                },
+                {
+                    type: "line",
+                    name: "Expected Sales",
+                    showInLegend: true,
+                    yValueFormatString: "$#,##0",
+                    dataPoints: [
+                        {x: new Date(2017, 0), y: 32000},
+                        {x: new Date(2017, 1), y: 37000},
+                        {x: new Date(2017, 2), y: 40000},
+                        {x: new Date(2017, 3), y: 52000},
+                        {x: new Date(2017, 4), y: 45000},
+                        {x: new Date(2017, 5), y: 47000},
+                        {x: new Date(2017, 6), y: 42000},
+                        {x: new Date(2017, 7), y: 43000},
+                        {x: new Date(2017, 8), y: 41000},
+                        {x: new Date(2017, 9), y: 42000},
+                        {x: new Date(2017, 10), y: 50000},
+                        {x: new Date(2017, 11), y: 45000}
+                    ]
+                },
+                {
+                    type: "area",
+                    name: "Profit",
+                    markerBorderColor: "white",
+                    markerBorderThickness: 2,
+                    showInLegend: true,
+                    yValueFormatString: "$#,##0",
+                    dataPoints: [
+                        {x: new Date(2017, 0), y: 4000},
+                        {x: new Date(2017, 1), y: 7000},
+                        {x: new Date(2017, 2), y: 12000},
+                        {x: new Date(2017, 3), y: 40000},
+                        {x: new Date(2017, 4), y: 20000},
+                        {x: new Date(2017, 5), y: 35000},
+                        {x: new Date(2017, 6), y: 33000},
+                        {x: new Date(2017, 7), y: 20000},
+                        {x: new Date(2017, 8), y: 25000},
+                        {x: new Date(2017, 9), y: 16000},
+                        {x: new Date(2017, 10), y: 29000},
+                        {x: new Date(2017, 11), y: 20000}
+                    ]
+                }]
+        };
+        $("#chartContainer").CanvasJSChart(options);
+
+        function addSymbols(e) {
+            var suffixes = ["", "K", "M", "B"];
+            var order = Math.max(Math.floor(Math.log(e.value) / Math.log(1000)), 0);
+
+            if (order > suffixes.length - 1)
+                order = suffixes.length - 1;
+
+            var suffix = suffixes[order];
+            return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
+        }
+
+        function toggleDataSeries(e) {
+            if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+                e.dataSeries.visible = false;
+            } else {
+                e.dataSeries.visible = true;
+            }
+            e.chart.render();
+        }
+
+
+    }
+
+    <!-- Gráfico de Pizza -->
+    google.charts.load("current", {packages: ["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Task', 'Hours per Day'],
+            ['Geladeira', 11],
+            ['Fogão', 2],
+            ['Microondas', 2],
+            ['Purificador', 2],
+            ['Liquidificador', 7]
+        ]);
+
+        var options = {
+            title: 'Porcentagem de Gasto',
+            is3D: true,
+            'width': 600,
+            'height': 400,
+            position: 'top',
+            textStyle: {color: 'blue', fontSize: 12}
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+    }
+
+
+    // Gráfico ao vivo
+    var dps = []; // dataPoints
+    var chart = new CanvasJS.Chart("chartContainerAoVivo", {
+        title: {
+            text: "Gráfico de Dispositivos"
+        },
+        axisY: {
+            includeZero: false
+        },
+        data: [{
+            type: "line",
+            dataPoints: dps
+        }]
+    });
+
+    var xVal = 0;
+    var yVal = 100;
+    var updateInterval = 1000;
+    var dataLength = 20; // number of dataPoints visible at any point
+
+    var updateChart = function (count) {
+
+        count = count || 1;
+
+        for (var j = 0; j < count; j++) {
+            yVal = yVal + Math.round(5 + Math.random() * (-5 - 5));
+            dps.push({
+                x: xVal,
+                y: yVal
+            });
+            xVal++;
+        }
+
+        if (dps.length > dataLength) {
+            dps.shift();
+        }
+
+        chart.render();
+    };
+
+    updateChart(dataLength);
+    setInterval(function () {
+        updateChart()
+    }, updateInterval);
+
+
+    $('#carousel-left').on('click', function (event) {
+        var $this = $(this);
+        if ($this.hasClass('clicked')) {
+            $this.removeAttr('style').removeClass('clicked');
+        } else {
+            $this.css('background', '#7fc242').addClass('clicked');
+        }
+    });
+
+
+</script>
+
+</body>
+</html>
