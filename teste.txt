@@ -1,0 +1,3 @@
+Git add . = Preparando os arquivos para serem subidos
+git commit – m  “msg” = mensagem da ação
+git push origin vitor = arquivos subidos para o git hub
